@@ -1,0 +1,5 @@
+setuptools==75.6.0
+streamlit==1.41.1
+transformers==4.47.1
+wheel==0.45.1
+google
