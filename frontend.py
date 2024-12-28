@@ -35,10 +35,10 @@ if st.button("Analyze"):
 
         # Map the result label to human-readable text
         if label == "LABEL_0":
-            label_text = "Not Hate Speech"
+            label_text = "መልካም"
             color = "green"
         elif label == "LABEL_1":
-            label_text = "Hate Speech"
+            label_text = "ጥላቻ"
             color = "red"
 
         # Display the result in a separate box
