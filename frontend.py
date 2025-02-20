@@ -2,8 +2,8 @@ import streamlit as st
 from transformers import pipeline
 
 # Load the model from Hugging Face
-model_name = "abdaiyan/amharic-hate-detection"
-classifier = pipeline("text-classification", model=model_name)
+#model_name = "abdaiyan/amharic-hate-detection"
+#classifier = pipeline("text-classification", model=model_name)
 
 # Streamlit UI
 st.set_page_config(
